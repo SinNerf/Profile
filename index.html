@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="banner-wrap">
+    <img src="assets/banner.png" alt="Profile banner">
+  </div>
+
+  <header class="profile-header">
+    <img class="profile-avatar" src="assets/avatar.png" alt="Profile picture">
+
+    <h1 class="profile-name">Nyx</h1>
+    <p class="profile-handle"><span>@</span>SinNerf</p>
+
+    <div class="about-me">
+      <strong>About me</strong>
+      I like to code alot. I either play games or code, that's basically all I do. 
+      I can build malware, websites, and apps for both Windows and Android, but I don't work with iPhone development, its too much hassle.
+      I also host my own servers, and I have some experience with networking and linux.
+    </div>
+  </header>
+
+  <section class="projects-wrap">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <a href="https://github.com/SinNerf/RAT_SAFE_EXAMPLE" target="_blank" rel="noopener">RAT</a>
+        <p>The first malware project I made is still a work in progress.
+           I changed the files so people can't just copy the code and use it for anything bad, 
+           but the general idea is still there. It's meant for learning how RATs work and how to protect yourself from them.
+        </p>
+        <div class="project-meta">GitHub</div>
+      </div>
+
+      <div class="project-card">
+        <a href="#" target="_blank" rel="noopener">Soon</a>
+        <p>This is my first website that is actually meant for the public, with a full backend and frontend, plus payments and encryption. 
+          I built it using the Django framework. It's still in development. 
+          I just need to set up the domain and get a new payment merchant API, and then it's basically ready.
+        </p>
+        <div class="project-meta">GitHub</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills-wrap">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skills-block">
+        <h3>Skills</h3>
+        <div class="skills-tags">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">CSS</span>
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">Bash</span>
+          <span class="skill-tag">Networking</span>
+        </div>
+      </div>
+
+      <div class="skills-block">
+        <h3>Frameworks</h3>
+        <div class="skills-tags">
+          <span class="skill-tag">Flask</span>
+          <span class="skill-tag">Django</span>
+        </div>
+      </div>
+
+      <div class="skills-block">
+        <h3>Apps &amp; tools</h3>
+        <div class="skills-tags">
+          <span class="skill-tag">VS Code</span>
+          <span class="skill-tag">Pycharm</span>
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">Gist</span>
+          <span class="skill-tag">Conda</span>
+          <span class="skill-tag">Raspberry pi</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
