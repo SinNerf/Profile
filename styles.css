@@ -124,6 +124,7 @@ body {
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 16px;
+  margin: 10px 0;
   transition: border-color 0.2s, transform 0.2s;
 }
 .project-card:hover {
